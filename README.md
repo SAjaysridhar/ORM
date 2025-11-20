@@ -15,9 +15,10 @@ Enter the code for admin.py and models.py
 
 ## STEP 4:
 Execute Django admin and create details for 10 books
+ 
 
 # PROGRAM
-~~~~
+```
 models.py
 from django.db import models
 from django.db import models
@@ -39,7 +40,7 @@ from django.contrib import admin
 from .models import Book,BookAdmin
 admin.site.register(Book,BookAdmin)
 
-~~~~
+```
 
 # OUTPUT
 ![alt text](<Screenshot 2025-03-29 105645.png>)
